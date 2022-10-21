@@ -6,13 +6,14 @@ function TextExample({data}) {
   return (
 
     <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>{data.title}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
+        
+      <Card.Body style={{textAlign:"center"}}>
+        <img style={{height:"80px"}} src={data.icon}></img>
+        <Card.Title  >{data.title}</Card.Title>
+        <Card.Text style={{fontsize: "15px"}}>
         {data.description}
         </Card.Text>
-        <Button variant="success">Primary</Button>
+        <Button variant="outline-dark">READ MORE</Button>
         
       </Card.Body>
     </Card>
