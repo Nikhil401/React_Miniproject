@@ -7,7 +7,7 @@ import "./Assets/Home.css";
 function Home2() {
     return(
     
-      <Row style={{ marginTop:"20px"}}>
+      <Row style={{ marginTop:"20px", marginBottom:"20px"}}>
         <Col style={{backgroundColor:"#d96124"}}>
           <Row>
             <Col></Col>
@@ -41,7 +41,7 @@ function Home2() {
             </Col>
           </Row>
         </Col>
-      </Row>
+      </Row> 
     
     );
 }

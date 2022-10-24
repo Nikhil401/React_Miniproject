@@ -2,8 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Carousel = () => {
   let data = [
